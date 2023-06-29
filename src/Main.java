@@ -1,15 +1,20 @@
-
+import java.sql.SQLOutput;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-         String message =  "C:\nWindows\\..."  ;
-        System.out.println(message);
+        int [] numbers = {2, 3 ,5 ,1 ,4};
+Arrays.sort(numbers);
+        System.out.println(Arrays.toString(numbers));
+
     }
 }
 
-//Ex: 1 = String message =  "Hello \"Mosh\""  ;
-//Ex: 2 =   String message =  "C:\\Windows\\..."  ;
-//Ex : 3 = If we want to break into 2 line then use \n I mean :    String message =  "C:\nWindows\\..."  ;
-//Result :
-// C:
-//Windows\...
+//Example 1 : public static void main(String[] args) {
+//        int [] numbers = new int [5];
+//        numbers[0] = 1;
+//        numbers[1] = 2;
+//        System.out.println(Arrays.toString(numbers));
+//
+//    }
+//}
