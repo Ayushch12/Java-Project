@@ -2,13 +2,14 @@
 
 public class Main {
     public static void main(String[] args) {
-         String message =  "Hello World"  ;
-        System.out.println(message.length());
+         String message =  "C:\nWindows\\..."  ;
+        System.out.println(message);
     }
 }
 
-//In String we can print letter as well . To count letter we have to pu indexOf (" ") ;Example is bellow :
-//System.out.println(message.indexOf("Sky"));
-//We learn (message.toLowerCase());
-//We learn (message.toUpperCase());
-//We learn (message.trim());
+//Ex: 1 = String message =  "Hello \"Mosh\""  ;
+//Ex: 2 =   String message =  "C:\\Windows\\..."  ;
+//Ex : 3 = If we want to break into 2 line then use \n I mean :    String message =  "C:\nWindows\\..."  ;
+//Result :
+// C:
+//Windows\...
