@@ -1,10 +1,14 @@
-import java.awt.*;
+
 
 public class Main {
     public static void main(String[] args) {
-        Point point1 = new Point(1,1);
-        Point point2 = point1;
-        point1.x = 2;
-        System.out.println(point2);
+         String message =  "Hello World"  ;
+        System.out.println(message.length());
     }
 }
+
+//In String we can print letter as well . To count letter we have to pu indexOf (" ") ;Example is bellow :
+//System.out.println(message.indexOf("Sky"));
+//We learn (message.toLowerCase());
+//We learn (message.toUpperCase());
+//We learn (message.trim());
