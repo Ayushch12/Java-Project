@@ -2,9 +2,8 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
- double x = 1.1 ;
- double y =x+2;
+ int result = (int)Math.ceil(1.1F);
 
-        System.out.println(y);
+        System.out.println(result);
     }
 }
